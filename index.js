@@ -4,9 +4,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 const WebSocket = require("ws");
-const ws = new WebSocket("ws://localhost:8080", {
-  perMessageDeflate: false,
-});
+const ws = new WebSocket("ws://localhost:8080");
 
 ws.onopen = function (e) {
   console.log("Connection to server opened");
