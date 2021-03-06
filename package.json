@@ -9,8 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start server": "node server.js",
-    "start client": "node index.js"
+    "server": "node server.js",
+    "client": "node index.js"
 
   },
   "repository": {
