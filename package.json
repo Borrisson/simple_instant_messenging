@@ -1,0 +1,24 @@
+{
+  "name": "websocket-instant-messaging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ws": "^7.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borrisson/simple_instant_messenging.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Borrisson/simple_instant_messenging/issues"
+  },
+  "homepage": "https://github.com/Borrisson/simple_instant_messenging#readme"
+}
